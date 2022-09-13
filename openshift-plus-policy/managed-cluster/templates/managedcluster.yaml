@@ -29,7 +29,6 @@ spec:
     vendor: auto-detect
   applicationManager:
     enabled: true
-    argocdCluster: false
   policyController:
     enabled: true
   searchCollector:

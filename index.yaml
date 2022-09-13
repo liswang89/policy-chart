@@ -3,9 +3,9 @@ entries:
   managed-cluster:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-12T21:48:42.920634-04:00"
+    created: "2022-09-12T22:13:59.925123-04:00"
     description: A Helm chart for Kubernetes
-    digest: a5b5319bde7645fadfbe724aa0412a4aee29106365e666f2f96d0eef583e67fb
+    digest: d7bfa6fdf03e8eea4693c472e0211da3a60724dc5e09b2ba1e3f7128657119f4
     name: managed-cluster
     type: application
     urls:
@@ -14,12 +14,12 @@ entries:
   policy-workflow-2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-12T21:48:42.921185-04:00"
+    created: "2022-09-12T22:13:59.925507-04:00"
     description: A Helm chart for Kubernetes
-    digest: c98f6ff8d2157a5ed3e91b9c02357b031ef7380147f0e2958d3a55ea53be3475
+    digest: 19dce21727bd00ee66cc7db2a66eb1b9d8e353009c7dd40dbc54eacb41415b88
     name: policy-workflow-2
     type: application
     urls:
     - https://liswang89.github.io/policy-chart/policy-workflow-2-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-12T21:48:42.919984-04:00"
+generated: "2022-09-12T22:13:59.924429-04:00"
