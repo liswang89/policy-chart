@@ -1,0 +1,41 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: "{{ .Values.managedCls }}"
+---
+apiVersion: cluster.open-cluster-management.io/v1
+kind: ManagedCluster
+metadata:
+  name: "{{ .Values.managedCls }}"
+  labels:
+    name: "{{ .Values.managedCls }}"
+    cloud: auto-detect
+    vendor: auto-detect
+  annotations: {}
+spec:
+  hubAcceptsClient: true
+---
+apiVersion: agent.open-cluster-management.io/v1
+kind: KlusterletAddonConfig
+metadata:
+  name: "{{ .Values.managedCls }}"
+  namespace: "{{ .Values.managedCls }}"
+spec:
+  clusterName: "{{ .Values.managedCls }}"
+  clusterNamespace: "{{ .Values.managedCls }}"
+  clusterLabels:
+    name: "{{ .Values.managedCls }}"
+    cloud: auto-detect
+    vendor: auto-detect
+  applicationManager:
+    enabled: true
+    argocdCluster: false
+  policyController:
+    enabled: true
+  searchCollector:
+    enabled: true
+  certPolicyController:
+    enabled: true
+  iamPolicyController:
+    enabled: true
+
