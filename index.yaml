@@ -1,25 +1,47 @@
 apiVersion: v1
 entries:
+  chart-example:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-13T10:13:18.500048-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 9d52a84c991524ebb386ab695d425752ca5f9aa15d2156b5b074a6cb82442288
+    name: chart-example
+    type: application
+    urls:
+    - https://opp.github.io/policy-chart/chart-example-0.1.0.tgz
+    version: 0.1.0
   managed-cluster:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-13T08:43:06.509281-04:00"
+    created: "2022-10-13T10:13:18.500541-04:00"
     description: A Helm chart for Kubernetes
-    digest: 72a635ce6e155755b25c8d3d510d9a6327e071df2240aa606c1e7ba9e26a7563
+    digest: 74810de9f500bf11460f145d7079f5451f1e04a6c5c2c397e6e73602e2d89faf
     name: managed-cluster
     type: application
     urls:
-    - https://liswang89.github.io/policy-chart/managed-cluster-0.1.0.tgz
+    - https://opp.github.io/policy-chart/managed-cluster-0.1.0.tgz
+    version: 0.1.0
+  policy-sets:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-13T10:13:18.501205-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 7939c36a839e585df8f77e71fa8cac693eba8a5d325e34f579fa591121ecbb52
+    name: policy-sets
+    type: application
+    urls:
+    - https://opp.github.io/policy-chart/policy-sets-0.1.0.tgz
     version: 0.1.0
   policy-workflow-2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-13T08:43:06.510163-04:00"
+    created: "2022-10-13T10:13:18.501835-04:00"
     description: A Helm chart for Kubernetes
-    digest: 0cde38e6da2da6c7b3d0b93c49d43a4b50a9d7c2cb77cee5f20331d419ebd49e
+    digest: 7a48f176d0551ac7c36a48daf086777d1ba328fdb418022d5ed1fcbfdebc39ae
     name: policy-workflow-2
     type: application
     urls:
-    - https://liswang89.github.io/policy-chart/policy-workflow-2-0.1.0.tgz
+    - https://opp.github.io/policy-chart/policy-workflow-2-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-13T08:43:06.508602-04:00"
+generated: "2022-10-13T10:13:18.498458-04:00"
